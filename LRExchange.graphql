@@ -1,0 +1,16 @@
+query ExampleExchangeQuery {
+  collections(first: 5) {
+    id
+    totalVolume
+    totalTransactions
+    totalTakerBidTransactions
+    totalTakerAskTransactions
+    totalTakerBidVolume
+  }
+  executionStrategies(first: 5) {
+    id
+    protocolFee
+    totalTransactions
+    totalTakerBidTransactions
+  }
+}

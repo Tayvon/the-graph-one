@@ -1,0 +1,8 @@
+sources:
+  - name: exchangeLR
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/looksrare/exchange
+
+documents:
+  - ./*.graphql
